@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin: 0;
+        }
+        p {
+            color: #666;
+            margin-top: 15px;
+        }
+        .logout-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .logout-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Welcome! ✅</h2>
+    <p>You have successfully logged in.</p>
+    <a href="/" class="logout-btn">Logout</a>
+</div>
+</body>
+</html>
